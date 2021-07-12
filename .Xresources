@@ -1,0 +1,55 @@
+
+
+! Xft settings ---------------------------------------------------------
+Xft.autohint:   0
+Xft.dpi:        76
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.lcdfilter:  lcddefault
+
+URxvt*termName:                 rxvt-256color
+URxvt*font:                     xft:FuraCode Nerd Font Mono:style=regular:pixelsize=12
+URxvt.depth:                    32
+URxvt*lineSpace:                0
+URxvt.letterSpace:              -1
+URxvt.iso14755:                 false
+URxvt.iso14755_52:              false
+URxvt*geometry:                 58x18
+URxvt.scrollBar:                false
+URxvt*loginShell:               true
+URxvt.internalBorder:           35
+URxvt.perl-ext-common:          default,clipboard
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.clipboard.autocopy:       true
+URxvt*blurRadius: 5
+! cursor underline  
+URxvt*cursorUnderline:      true
+! cursor blinking 
+URxvt*cursorBlink:          true
+! blank the pointer on keypress or timeout
+URxvt*pointerBlank:         false
+
+! Colors
+*background:   [97]#312e39
+*foreground:   #c0a79a
+*cursorColor:  #c0a79a
+
+*color0:      #33303b
+*color8:      #4f4b58
+*color1:      #87404f
+*color9:      #87404f
+*color2:      #4c9882
+*color10:     #4c9882
+*color3:      #71949a
+*color11:     #71949a
+*color4:      #615772
+*color12:     #615772
+*color5:      #783e57
+*color13:     #783e57
+*color6:      #554757
+*color14:     #554757
+*color7:      #c0a79a
+*color15:     #c0a79a
